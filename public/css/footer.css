@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    background-color: #f3ede8;
+}
+
+.footer .footer__warp {
+    padding: 50px 100px;
+}
+
+.footer .footer__warp div {
+    height: 100%;
+}
+
+.footer .footer__warp > ul {
+    text-align: center;
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.footer .footer__warp > ul li span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer .footer__warp > ul li ul > li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}

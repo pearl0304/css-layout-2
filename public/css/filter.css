@@ -1,0 +1,28 @@
+.filter {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    font-size: 14px;
+    color: #414141;
+}
+
+.filter__wrap {
+    display: flex;
+    margin: 0px 100px;
+    justify-content: space-between;
+}
+
+.filter__wrap__left ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__wrap__left ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.filter__wrap__right {
+    cursor: pointer;
+}
